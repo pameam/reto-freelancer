@@ -136,7 +136,7 @@ ul ,li,section,figure , nav{
  /*estilos del segundo container*/
  .box2{
    width: 100%;
-   height: 878px;
+   height: 812px;
    text-align: center;
    overflow: auto;
  }
@@ -185,9 +185,74 @@ ul ,li,section,figure , nav{
  .image-portafolio{
    background-size: cover;
  }
- .box2 ul{
-   text-align: center;
- }
  .star2{
    color: #000000;
  }
+ /*estilos del tercer contenedor*/
+.box3{
+  height: 578px
+  text-align: center;
+  background-color:  #18bc9c;
+}
+.title-section-three{
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Montserrat,x,Arial,sans-serif;
+  font-size: 3em;
+  top: 92px;
+  text-align: center;
+  height: 100px;
+  padding-top:100px;
+  width: 100%;
+  display: inline-block;
+}
+.star3{
+  display: inline-block;
+  background-color: #fff;
+  width: 102px;
+  height: 5px;
+  border:none;
+  top:5px;
+  margin: 6px;
+}
+.container-icono-star3{
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom:17px;
+  display: inline-block;
+  text-align:center;
+}
+.row{
+  position: relative;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+p{
+  width: 25%;
+  height: 165px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  display: inline-block;
+  margin-left:20px;
+  text-align: left;
+}
+.box-download{
+  width: 212.77px;
+  height: 50px;
+  border-radius:.3rem;
+  border:2px solid #fff;
+  text-align: center!important;
+  margin: auto;
+}
+.formate-text{
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  margin: 12px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  text-align: center;
+}
