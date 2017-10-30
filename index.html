@@ -3,6 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet">
     <link rel="stylesheet" href="assets/icons/awesome/font-awesome-4.7.0/css/font-awesome.css">
@@ -74,55 +75,43 @@
       <div class="container-icono-star">
         <hr class="star star-line1"><i id="star-color1" class="fa fa-star fa-2x" aria-hidden="true"></i><hr class="star star-line1">
       </div>
-      <div>
-        <form name="sent-message"action="">
+      <div class="box-form">
+        <form name="sent-message"action="sent-message">
           <div class="container-form">
-            <div class="label-float">
-              <label>Name</label>
-              <input type="text" name="name" value="">
+              <input type="text" name="name" value=""placeholder="Name">
               <hr class="line-cursor">
-            </div>
-            <div class="label-float">
-              <label>Email Address</label>
-              <input type="email" name="email" value="">
+              <input type="email" name="email" value=""placeholder="Email Address">
               <hr class="line-cursor">
-            </div>
-            <div class="label-float">
-              <label>Phone Number</label>
-              <input type="number" name="phone" value="">
+              <input type="number" name="phone" value=""placeholder="Phone Number">
               <hr class="line-cursor">
-            </div>
-            <div class="label-float">
-              <label>Message</label>
-              <input type="text"class="message" name="message" value="">
+              <input type="text"class="message" name="message" value=""placeholder="Message">
               <hr class="line-cursor">
-            </div>
-          </div>
-          <div class="container-button">
+            <div class="container-button">
             <button type="button" name="Send">Send</button>
+            </div>
           </div>
         </form>
       </div>
     </section>
     <footer>
       <div class="container-footer">
-        <div class="footer-column">
+        <div class="footer-title">
           <div class="format-letter1">location</div>
-          <div class="format-letter2">3481 Melrose Place<br> Beverly Hills,CA 90210</div>
-        </div>
-        <div class="footer-column">
           <div class="format-letter1">around the web</div>
-          <div class="format-letter2">
-            <div class="icon-footer"><a href=""><i class="fa fa-fw fa-facebook"></i></a></div>
-            <div class="icon-footer"><a href=""><i class="fa fa-fw fa-google-plus"></i></a></div>
-            <div class="icon-footer"><a href=""><i class="fa fa-fw fa-twitter"></i></a></div>
-            <div class="icon-footer"><a href=""><i class="fa fa-fw fa-linkedin"></i></a></div>
-            <div class="icon-footer"><a href=""><i class="fa fa-fw fa-dribbble"></i></a></div>
-          </div>
-        </div>
-        <div class="footer-column">
           <div class="format-letter1">about freelancer</div>
-          <div class="format-letter2">freelance is a free to use,open source<br> Bootstrap theme created by</div><div class="format-letter3">Start Bootstrap.</div>
+        </div>
+        <div class="footer-content">
+            <div class="format-letter2">3481 Melrose Place<br> Beverly Hills,CA 90210</div>
+            <div class="format-letter2">
+              <div class="icon-footer"><a href=""><i class="fa fa-fw fa-facebook"></i></a></div>
+              <div class="icon-footer"><a href=""><i class="fa fa-fw fa-google-plus"></i></a></div>
+              <div class="icon-footer"><a href=""><i class="fa fa-fw fa-twitter"></i></a></div>
+              <div class="icon-footer"><a href=""><i class="fa fa-fw fa-linkedin"></i></a></div>
+              <div class="icon-footer"><a href=""><i class="fa fa-fw fa-dribbble"></i></a></div>
+            </div>
+            <span class="format-letter2">Freelance is a free to use,open source Bootstrap theme created by
+            <span class="format-letter3">Start Bootstrap.</span>
+          </span>
         </div>
       </div>
       <div class="footer-copyright">
