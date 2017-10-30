@@ -65,14 +65,7 @@ ul li{
  .name-menu:hover{
    color:  #18bc9c;
  }
- /*estilos del Contenedor 1*/
- .container{
-   width: 100%;
-   height: 600px;
-   padding: 0;
-   margin: 0;
-   top:0;
- }
+ /*estilos del Contenedor 1(start-bootstrap)*/
  .box1{
    width: 100%;
    height: 797px;
@@ -131,7 +124,7 @@ ul li{
 
    text-transform: capitalize;
  }
- /*estilos del segundo container*/
+ /*estilos del segundo container(portfolio)*/
  .box2{
    width: 100%;
    height: 827px;
@@ -175,9 +168,10 @@ ul li{
  .image-portafolio{
    background-size: cover;
  }
- /*estilos del tercer contenedor*/
+ /*estilos del tercer contenedor(about)*/
 .box3{
-  height: 578px
+  width: 100%;
+  height: 578px;
   text-align: center;
   background-color:  #18bc9c;
 }
@@ -236,7 +230,7 @@ p{
 .container-download{
   padding-top: 26px;
 }
- /*estilos del cuarto contenedor*/
+ /*estilos del cuarto contenedor(contact)*/
  .box4{
    width: 100%;
    height: 791px;
