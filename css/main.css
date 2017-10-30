@@ -116,12 +116,10 @@ ul li{
  }
  .sub-title{
    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
-   font-weight: 100;
+   font-weight: 300;
    font-size: 1.75em;
    line-height: 1.5;
-   letter-spacing: 1px;
-   padding-top: 14px;
-
+   padding-top: 14px;  
    text-transform: capitalize;
  }
  /*estilos del segundo container(portfolio)*/
